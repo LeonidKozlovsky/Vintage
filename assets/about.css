@@ -1,0 +1,99 @@
+header a:nth-child(6) {
+    border-bottom: 1.5px solid #e6e6e6;
+}
+
+hr {
+    border: none;
+
+    margin: 50px 0;
+    
+    width: 1200px;
+    height: 1px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .blockf {
+    padding: 50px 0 0 0;
+    
+    background-image: url(images/about/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    width: 1200px;
+    height: 700px;
+}
+
+main .blocks {
+    display: inline-flex;
+    justify-content: space-around;
+    
+    width: 1200px;
+}
+
+main .blocks h3 {
+    padding: 0 0 10px 0;
+}
+
+main .blocks div {
+    display: flex;
+    flex-direction: column;
+    
+    width: 375px;
+    height: 400px;
+}
+
+main .blocks div p {
+    line-height: 27px;
+    text-align: justify;
+}
+
+main .blocks div img {
+    padding: 10px 0 0 0;
+}
+
+main .sblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 50px 0 0 0;
+    
+    width: 1200px;
+    height: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    hr {
+        width: 900px;
+    }
+    
+    main .blockf {
+        width: 900px;
+        height: 550px;
+    }
+    
+    main .blocks {
+        width: 900px;
+    }
+    
+    main .blocks div {
+        width: 275px;
+        height: 525px;
+    }
+    
+    main .blocks div p {
+        line-height: 25px;
+    }
+    
+    main .sblock {
+        width: 900px;
+    }
+}

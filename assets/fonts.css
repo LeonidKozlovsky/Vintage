@@ -1,0 +1,133 @@
+@font-face {
+    font-family: palatino;
+    src: url(fonts/pala.ttf);
+}
+
+@font-face {
+    font-family: mochamattari;
+    src: url(fonts/MochaMattari.ttf);
+}
+
+header a {
+    font-family: mochamattari;
+    font-size: 2em;
+}
+/* === HOME === */
+main .fimage h3 {
+    font-family:  mochamattari;
+    font-size: 2.5em;
+}
+
+main .fimage .subscribe p {
+    font-family: palatino;
+    font-size: 1.5em;
+}
+
+main .fimage .subscribe a {
+    font-family: mochamattari;
+    font-size: 2em;
+}
+
+main .sblock h3,
+main .x1 h3 {
+    font-family: mochamattari;
+    font-size: 2.5em;
+}
+
+main .thblock h3 {
+    font-family: mochamattari;
+    font-size: 2em;
+}
+
+main .fblock h3 {
+    font-family: mochamattari;
+    font-size: 2.5em;
+}
+
+main .fblock p {
+    font-family: palatino;
+    font-size: 1em;
+}
+
+main .fblock a {
+    font-family: mochamattari;
+    font-size: 2em;
+}
+
+/* === CONTACT === */
+
+main .touch h3 {
+    font-family: mochamattari;
+    font-size: 2.51em;
+}
+
+main .touch form input[type="text"],
+main .touch form input[type="email"],
+main .touch form textarea {
+    font-family: palatino;
+    font-size: 1.25em;
+}
+
+main .touch form input[type="submit"] {
+    font-family: mochamattari;
+    font-size: 2em;
+}
+
+/* === ABOUT === */
+
+main .blocks h3 {
+    font-family: mochamattari;
+    font-size: 2.7em;
+}
+
+main .blocks p {
+    font-family: palatino;
+    font-size: 1.25em;
+}
+
+/* === SERVICES === */
+
+main .done .number div .back {
+    font-family: mochamattari;
+    font-size: 5em;
+}
+
+main .done .number div .list h3 {
+    font-family: mochamattari;
+    font-size: 2.7em;
+}
+
+main .done .number div .list p {
+    font-family: palatino;
+    font-size: 1.1em;
+}
+
+/* === BLOG === */
+
+main .news h3 {
+    font-family: mochamattari;
+    font-size: 2em;
+}
+
+main .news p {
+    font-family: palatino;
+    font-size: 1.1em;
+}
+
+/* === FOOTER === */
+
+footer h3 {
+    font-family: mochamattari;
+    font-size: 2.5em;
+}
+
+footer a {
+    font-family: palatino;
+    line-height: 25px;
+    font-size: 1.25em;
+}
+
+footer p {
+    font-family: palatino;
+    font-size: 1em;
+}

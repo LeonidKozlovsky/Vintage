@@ -1,0 +1,226 @@
+header a:nth-child(7) {
+    border-bottom: 1.5px solid #e6e6e6;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .x1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 50px 0 0 0;
+    
+    width: 1200px;
+    height: 100px;
+}
+
+main .touch {
+    display: inline-flex;
+    justify-content: space-around;
+    
+    margin: 50px 0;
+    
+    width: 1200px;
+}
+
+main .touch form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 785px;
+}
+
+main .touch h3 {
+    padding: 20px 10px 20px 0;
+}
+
+main .touch form .top {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+main .touch form .top .nam,
+main .touch form .top .mail {
+    width: 380px;
+}
+
+main .touch form input[type="text"],
+main .touch form input[type="email"],
+main .touch form textarea {
+    border: none;   
+    padding: 0 0 0 20px;
+}
+
+input::-webkit-input-placeholder{ 
+    color: #e6e6e6;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+}
+
+input::-moz-placeholder{ 
+    color: #e6e6e6;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+}
+
+input:-moz-placeholder{ 
+    color: #e6e6e6;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+}  
+
+input:-ms-input-placeholder { 
+    color: #e6e6e6;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+}
+
+input:focus::-webkit-input-placeholder{ 
+    color: #e6e6e6;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+input:focus::-moz-placeholder{ 
+    color: #e6e6e6;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+input:focus:-moz-placeholder{ 
+    color: #e6e6e6;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+input:focus:-ms-input-placeholder { 
+    color: #e6e6e6;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+textarea::-webkit-input-placeholder{ 
+    color: #e6e6e6;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+    padding: 10px 0 0 0;
+}
+
+textarea::-moz-placeholder{ 
+    color: #e6e6e6;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+    padding: 10px 0 0 0;
+}
+
+textarea:-moz-placeholder{ 
+    color: #e6e6e6;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+    padding: 10px 0 0 0;
+}  
+
+textarea:-ms-textarea-placeholder { 
+    color: #e6e6e6;
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+    padding: 10px 0 0 0;
+}
+
+textarea:focus::-webkit-input-placeholder{ 
+    color: #e6e6e6;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+textarea:focus::-moz-placeholder{ 
+    color: #e6e6e6;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+textarea:focus:-moz-placeholder{ 
+    color: #e6e6e6;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+textarea:focus:-ms-textarea-placeholder { 
+    color: #e6e6e6;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+main .touch form input[type="text"],
+main .touch form input[type="email"] {
+    width: 375px;
+    height: 45px;
+}
+
+
+main .touch form input[type="submit"] {
+    border: none;
+    
+    margin: 20px 0 0 0;
+    
+    width: 85px;
+    height: 50px;
+}
+
+main .touch form input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+main .touch form textarea {
+    resize: none;
+    
+    width: 780px;
+    height: 175px;
+}
+
+main .touch .socials {
+    display: inline-flex;
+    justify-content: space-between;
+    
+    width: 300px;
+}
+
+@media screen and (max-width: 1200px) {
+    main .x1 {
+        width: 900px;
+    }
+    
+    main .touch {
+        width: 900px;
+    }
+    
+    main .touch form {
+        width: 600px;
+    }
+    
+    main .touch form .top {
+        justify-content: space-between;
+        
+        width: 550px;
+    }
+    
+    main .touch form .top .nam,
+    main .touch form .top .mail {
+        width: 250px;
+    }
+    
+    main .touch form input[type="text"],
+    main .touch form input[type="email"] {
+        width: 250px;
+    }
+    
+    main .touch form textarea {
+        width: 550px;
+    }
+}

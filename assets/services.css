@@ -1,0 +1,210 @@
+header a:nth-child(2) {
+    border-bottom: 1.5px solid #e6e6e6;
+}
+
+hr {
+    border: none;
+    
+    margin: 40px 0 50px 0;
+    
+    width: 1200px;
+    height: 1px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .imag {
+    background-image: url(images/services/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    padding: 50px 0 0 0;
+    
+    width: 1200px;
+    height: 700px;
+}
+
+main .sblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 50px 0 0 0;
+    
+    width: 1200px;
+    height: 100px;
+}
+
+main .done {
+    display: inline-flex;
+    
+    padding: 50px 0 0 0;
+    
+    width: 1200px;
+    height: 500px;
+}
+
+main .done .number {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    width: 800px;
+    height: 500px;
+}
+
+main .done .number > div {
+    display: inline-flex;
+    
+    position: relative;
+}
+
+main .done .number div .back {
+    display: flex;
+    
+    background-image: linear-gradient(240deg, #e6e6e6 35px, transparent 11px), linear-gradient(300deg, #e6e6e6 35px, transparent 11px);
+    background-repeat: no-repeat;
+    background-size: 110px 110px;
+    background-position: right, right;
+    
+    position: relative;
+    
+    z-index: 10;
+    
+    width: 160px;
+    height: 105px;
+}
+
+main .done .number div .back p {
+    margin: auto;
+}
+
+main .done .number div .list {
+    display: flex;
+    flex-direction: column;
+    
+    background-image: linear-gradient(240deg, #e6e6e6 35px, transparent 11px), linear-gradient(300deg, #e6e6e6 35px, transparent 11px);
+    background-repeat: no-repeat;
+    background-size: 110px 110px;
+    background-position: right, right;
+    
+    position: relative;
+    
+    z-index: 10;
+    
+    width: 620px;
+}
+
+main .done .number div .list p {
+    padding: 20px 30px 0 0;
+}
+
+main .done .number > div:hover .back {
+    background-image: none;
+}
+
+main .done .number div img {
+    position: absolute;
+	z-index: 1;
+    
+    display: none;
+}
+
+main .done .number > div:hover {
+    cursor: default;
+}
+
+main .done .number > div:hover img {
+    left: 800px;
+    display: block;
+	opacity: 1;
+}
+
+main .done .number > div:hover:nth-child(2) img {
+    margin: -125px 0 0 0;
+}
+
+main .done .number > div:hover:nth-child(3) img {
+    margin: -250px 0 0 0;
+}
+
+main .done .number > div:hover:nth-child(4) img {
+    margin: -375px 0 0 0;
+}
+
+@media screen and (max-width: 1200px) {
+    hr {
+        width: 900px;
+    }
+    
+    main .imag {
+        width: 900px;
+        height: 550px;
+    }
+    
+    main .sblock {
+        width: 900px;
+    }
+    
+    main .done {
+        width: 900px;
+        height: 700px;
+    }
+    
+    main .done .number {
+        width: 500px;
+        height: 700px;
+    }
+    
+    main .done .number div .list {
+        background-image: linear-gradient(240deg, #e6e6e6 35px, transparent 11px), linear-gradient(300deg, #e6e6e6 35px, transparent 11px);
+        background-repeat: no-repeat;
+        background-size: 140px 140px;
+        background-position: right, right;
+        
+        width: 500px;
+    }
+    
+    main .done .number div .back {
+        background-image: linear-gradient(240deg, #e6e6e6 35px, transparent 11px), linear-gradient(300deg, #e6e6e6 35px, transparent 11px);
+        background-repeat: no-repeat;
+        background-size: 140px 140px;
+        background-position: right, right;
+        
+        width: 150px;
+    }
+    
+    main .done .number div .list,
+    main .done .number div .back{
+        height: 140px;
+    }
+    
+    main .done .number div img {
+        width: 400px;
+        height: auto;
+    }
+    
+    main .done .number > div:hover:nth-child(2) img {
+        margin: -150px 0 0 0;
+    }
+    
+    main .done .number > div:hover:nth-child(3) img {
+        margin: -300px 0 0 0;
+    }
+
+    main .done .number > div:hover:nth-child(4) img {
+        margin: -450px 0 0 0;
+    }
+    
+    main .done .number > div:hover img {
+        left: 500px;
+        width: 400px;
+        height: auto;
+    }
+}

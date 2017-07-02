@@ -1,0 +1,350 @@
+header a:nth-child(1) {
+    border-bottom: 1.5px solid #e6e6e6;
+}
+
+hr {
+    border: none;
+    
+    margin: 50px 0;
+    
+    width: 1200px;
+    height: 1px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .fimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(images/home/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    width: 1200px;
+    height: 700px;
+}
+
+main .fimage .tralala {
+    display: inline-flex;
+    justify-content: center;
+}
+
+main .fimage .tralala .spisok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    height: 150px;
+}
+
+main .fimage .tralala img {
+    padding: 0 20px 0 0;
+    border-right: 5px solid #e6e6e6;
+}
+
+main .fimage .tralala .spisok h3 {
+    padding: 0 0 0 20px;
+}
+
+main .fimage .subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 100px 0 0 0;
+}
+
+main .fimage .subscribe p {
+    padding: 0 0 10px 0;
+}
+
+main .fimage .subscribe a {
+    border: 3px solid #fff;
+    padding: 10px;
+    margin: 15px 0 0 0;
+}
+
+main .sblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 50px 0 0 0;
+    
+    width: 1200px;
+    height: 100px;
+}
+
+main .thblock {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 50px 0;
+    
+    width: 1200px;
+    height: 270px;
+}
+
+main .thblock .im1,
+main .thblock .im2,
+main .thblock .im3, 
+main .thblock .im4 {    
+    widtH: 270px;
+    height: 270px;
+    position: relative;
+}
+
+main .thblock .im1 {
+    background-image: url(images/home/03.jpg);
+}
+
+main .thblock .im2 {
+    background-image: url(images/home/04.jpg);
+}
+
+main .thblock .im3 { 
+    background-image: url(images/home/05.jpg);
+}
+
+main .thblock .im4 {
+    background-image: url(images/home/06.jpg);
+}
+
+main .thblock .im1,
+main .thblock .im2,
+main .thblock .im3,
+main .thblock .im4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main .thblock .mi1 {
+    position: absolute; bottom: 15px; right: 0;
+    width: 60px;
+    height: 90px;  
+    overflow: hidden;
+    
+    transition: 0.3s;
+}
+
+main .thblock .mi1:before,
+main .thblock .mi1:after{
+  content: '';
+  position: absolute; right: -25px;
+  background: #c95757;
+  width: 60px;
+  height: 65px;  
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+main .thblock .mi1:before{
+  top: 0;   
+  -webkit-transform: skew(35deg);
+  transform: skew(35deg);
+}
+
+main .thblock .mi1:after{
+  bottom: 0;
+  -webkit-transform: skew(-35deg);
+  transform: skew(-35deg);
+}
+
+main .thblock .mi1 > span{}
+main .thblock .mi1 > span:before,
+main .thblock .mi1 > span:after{
+  content: '';
+  position: absolute; right: -11px;
+  width:100%;
+  height: 4px;
+  background: #ffffcc;
+  z-index: 1;
+}
+main .thblock .mi1 > span:before{
+  top: 10px;     
+  -webkit-transform: skew(35deg);
+  transform: skew(35deg);
+}
+main .thblock .mi1 > span:after{    
+  bottom: 10px;
+  -webkit-transform: skew(-35deg);
+  transform: skew(-35deg);
+}
+
+main .thblock .mi1 h3 {
+    display: block;
+    
+    position: absolute;
+    
+    padding: 20px 0 0 80px;
+    
+    transition: 0.4s;
+    transform: translateX(100%);
+}
+
+main .thblock .im1:hover .mi1,
+main .thblock .im1:hover .mi1:after,
+main .thblock .im1:hover .mi1:before,
+main .thblock .im2:hover .mi1,
+main .thblock .im2:hover .mi1:after,
+main .thblock .im2:hover .mi1:before,
+main .thblock .im3:hover .mi1,
+main .thblock .im3:hover .mi1:after,
+main .thblock .im3:hover .mi1:before,
+main .thblock .im4:hover .mi1,
+main .thblock .im4:hover .mi1:after,
+main .thblock .im4:hover .mi1:before {
+    position: absolute;
+    
+    width: 240px;
+}
+
+main .thblock .im1:hover .mi1 h3,
+main .thblock .im2:hover .mi1 h3,
+main .thblock .im3:hover .mi1 h3,
+main .thblock .im4:hover .mi1 h3 {
+    transform: translateX(-10%);
+     
+    z-index: 100;
+}
+
+main .fblock {
+    display: inline-flex;
+    justify-content: center;
+}
+
+main .fblock > div {
+    width: 400px;
+}
+
+main .fblock .block1 h3:nth-child(1) {
+    padding: 20px 0 0 20px;
+}
+
+main .fblock .block1 h3:nth-child(2) {
+    padding: 0 0 50px 20px;
+}
+
+main .fblock .block1 a {
+    margin: 0 0 0 20px;
+    padding: 10px;
+}
+
+main .fblock .block2 > h3 {
+    padding: 20px 0 30px 20px;
+}
+
+main .fblock .block2 img {
+    padding: 20px 0 20px 20px;
+    
+    width: 48px;
+    height: 48px;
+}
+
+main .fblock .block2 .super {
+    display: inline-flex;
+    justify-content: flex-start;
+    padding: 0 0 20px 0;
+}
+
+main .fblock .block2 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 0 0 0 10px;
+}
+
+main .fblock .block3 h3 {
+    padding: 20px 0 40px 15px;
+}
+
+main .fblock .block3 .load {
+    display: inline-flex;
+    justify-content: space-around;
+    
+    width: 400px;
+}
+
+main .fblock .block3 .load img {
+    width: 169px;
+    height: 55px;
+}
+
+@media screen and (max-width: 1200px) {
+    hr {
+        width: 900px;
+    }
+    
+    main .fimage {
+        width: 900px;
+        height: 550px;
+    }
+    
+    main .sblock {
+        width: 900px;
+    }
+    
+    main .thblock {        
+        width: 900px;
+        height: 210px;
+    }
+    
+    main .thblock .im1,
+    main .thblock .im2,
+    main .thblock .im3, 
+    main .thblock .im4 {
+        width: 210px;
+        height: 210px;
+    }
+    
+    main .thblock .im1:hover .mi1,
+    main .thblock .im1:hover .mi1:after,
+    main .thblock .im1:hover .mi1:before,
+    main .thblock .im2:hover .mi1,
+    main .thblock .im2:hover .mi1:after,
+    main .thblock .im2:hover .mi1:before,
+    main .thblock .im3:hover .mi1,
+    main .thblock .im3:hover .mi1:after,
+    main .thblock .im3:hover .mi1:before,
+    main .thblock .im4:hover .mi1,
+    main .thblock .im4:hover .mi1:after,
+    main .thblock .im4:hover .mi1:before {
+    position: absolute;
+    
+    width: 200px;
+    }
+    
+    main .thblock .im1:hover .mi1 h3,
+    main .thblock .im2:hover .mi1 h3,
+    main .thblock .im3:hover .mi1 h3,
+    main .thblock .im4:hover .mi1 h3 {
+        transform: translateX(-15%);
+    }
+    
+    main .fblock > div {
+        width: 300px;
+    }
+    
+    main .fblock .block3 .load {
+        width: 300px;
+    }
+    
+    main .fblock .block3 .load img {
+        width: 130px;
+        height: 45px;
+    }
+}
+

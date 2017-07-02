@@ -1,0 +1,138 @@
+body {
+    background-color: #e6e6e6;
+}
+
+header  {
+    background-color: #2b1411;
+}
+
+header a {
+    color: #e6e6e6;
+}
+
+/* === HOME === */
+
+main .fimage p {
+    color: #e6e6e6;
+}
+
+main .fimage h3,
+main .fimage a{
+    color: #fff;
+}
+
+main .sblock,
+main .x1{
+    background-color: #669999;
+}
+
+main .sblock h3,
+main .x1 h3 {
+    color: #e6e6e6;
+}
+
+main .sblock span {
+    color: #c95757;
+}
+
+hr {
+    background-color: #b8b8b8;
+}
+
+main .thblock h3 {
+    color: #ffffcc;
+}
+
+main .fblock h3{
+    color: #91584e;
+}
+
+main .fblock a {
+    color: #e6e6e6;
+}
+
+main .fblock p {
+    color: #2b1411;
+}
+
+main .fblock .block1 a {
+    background-color: #2b1411;
+}
+
+/* === CONTACT === */
+
+main .touch h3 {
+    color: #91584e;
+}
+
+main form input[type="text"],
+main form input[type="email"],
+main form textarea {
+    background-color: #CEBFB0;
+    color: #e6e6e6;
+}
+
+main .touch form input[type="submit"] {
+    background-color: #2b1411;
+    color: #e6e6e6;
+}
+
+/* === ABOUT === */
+
+main .blocks h3 {
+    color: #91584e;
+}
+
+main .blocks p {
+    color: #42241E;
+}
+
+/* === SERVICES === */
+
+main .done .number div .back {
+    background-color: #E1DACA;
+    color: #e6e6e6;
+}
+
+main .done .number div .list h3 {
+    color: #91584e;
+}
+
+main .done .number div:hover .list {
+    background-color: #c95757;
+    color: #e6e6e6;
+}
+
+main .done .number div:hover .back {
+    background-color: #c95757;
+}
+
+main .done .number div:hover h3 {
+    color: #e6e6e6;
+}
+
+/* === BLOG === */
+
+main .news h3 {
+    color: #91584e;
+}
+
+main .news p {
+    color: #42241E;
+}
+
+
+/* === FOOTER === */
+
+footer {
+    background-color: #2b1411;
+}
+
+footer a,
+footer h3{
+    color: #e6e6e6;
+}
+
+footer p {
+    color: #91584e;
+}
